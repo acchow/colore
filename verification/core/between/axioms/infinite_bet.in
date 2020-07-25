@@ -17,7 +17,7 @@ all x all y
         -between(q,p,r))).
 
 all x all y
-	(exists z between(x,y,z)).
+	(exists z (between(x,y,z))).
 
 all x all y all z
 	((between(x,y,z)
