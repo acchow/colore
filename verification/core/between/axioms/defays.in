@@ -23,6 +23,6 @@ formulas(assumptions).
 	& -between(b,a,d))
 	->
 	(exists c
-		between(a,c,b)))).
+		(between(a,c,b))))).
 
 end_of_list.
