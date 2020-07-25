@@ -53,7 +53,7 @@ formulas(assumptions).
 	(L(u,v,w)
 	<->
         ((u = v) | (u = w) | (v = w)
-        | between(u,v,w) | between(v,w,u) | between(w,u,v))))).
+        | between(u,v,w) | between(v,w,u) | between(w,u,v)))).
 
 %OP
 (all a all b all c all d all e
